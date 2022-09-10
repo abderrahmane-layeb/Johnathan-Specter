@@ -1,0 +1,191 @@
+/* heading-font */
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+/* font-family: 'Prata', serif; */
+
+/* body-font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* border: solid red 1px; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Prata', serif;
+    background: #0a0a0b;
+    color: #fff;
+}
+
+#copyright {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-weight: 600;
+}
+
+/* header-styling */
+.navbar {
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-list {
+    color: #848484;
+    font-family: 'Inter', serif;
+    display: none;
+}
+
+.navbar .btn {
+    display: none;
+}
+
+.navbar img {
+    display: inline-block;
+}
+
+.navbar img:hover::after {
+    content: "";
+    background-color: #2e3038;
+    width: 100%;
+    height: fit-content;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+/* main-styling */
+.first-section {
+    padding: 30px 20px;
+}
+
+.first-section .heading {
+    font-size: 2em;
+}
+
+.first-section .about-pg {
+    font-family: 'Inter', serif;
+    color: #848484;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+}
+
+.first-section .companies-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3em;
+    row-gap: 1em;
+}
+
+.second-section {
+    padding: 30px 20px;
+}
+
+.second-section img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.second-section a:any-link {
+    color: #fff;
+    font-size: 2.2em;
+}
+
+.second-section a:hover {
+    text-decoration: underline;
+}
+
+.second-section .about-pg {
+    margin-top: 1em;
+    font-family: 'Inter', serif;
+    color: #848484;
+    font-size: 1.085em;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+}
+
+.third-section {
+    background: #2e3038;
+    padding: 50px 20px 30px;
+}
+
+.third-section .heading {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.third-section p {
+    font-size: 1.07em;
+    font-family: 'Inter', serif;
+    color: #848484;
+    margin-bottom: 30px;
+}
+
+.forth-section {
+    padding: 30px 20px;
+}
+
+.forth-section .heading {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.forth-section p {
+    font-size: 1.07em;
+    font-family: 'Inter', serif;
+    color: #848484;
+    margin-bottom: 20px;
+}
+
+.btn {
+    all: unset;
+    padding: 15px 30px;
+    color: #000;
+    background: #fbe850;
+}
+
+/* footer-styling */
+footer {
+    padding: 20px 40px;
+    background: #2e3038;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 1em;
+}
+
+footer .social-icons img:hover {
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
