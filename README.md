@@ -1,8 +1,8 @@
 # Hello and Welcome 👋
 
-### This project idea is by Codewell and designed by ༄MaGNeZ࿐
+### This project idea is by Codewell.com and designed by ༄MaGNeZ࿐
 
-- [This is Johnathan Specter Portfolio page]
+- [ This is Johnathan Specter Portfolio web page ]
 
 ### Fonts Used
 
