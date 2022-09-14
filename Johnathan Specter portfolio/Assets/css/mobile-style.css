@@ -57,7 +57,7 @@ body {
     display: inline-block;
 }
 
-.navbar img:hover::after {
+/* .navbar img:hover::after {
     content: "";
     background-color: #2e3038;
     width: 100%;
@@ -67,7 +67,7 @@ body {
     -moz-transform: translateX(100%);
     -ms-transform: translateX(100%);
     -o-transform: translateX(100%);
-}
+} */
 
 /* main-styling */
 .first-section {
