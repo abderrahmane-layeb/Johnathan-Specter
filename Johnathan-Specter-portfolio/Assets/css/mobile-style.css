@@ -1,40 +1,3 @@
-/* heading-font */
-
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-
-/* font-family: 'Prata', serif; */
-
-/* body-font */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    /* border: solid red 1px; */
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Prata', serif;
-    background: #0a0a0b;
-    color: #fff;
-}
-
-#copyright {
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-    font-family: 'Inter', serif;
-    font-weight: 600;
-}
-
 /* header-styling */
 .navbar {
     padding: 30px 20px;
@@ -45,7 +8,7 @@ body {
 
 .navbar .nav-list {
     color: #848484;
-    font-family: 'Inter', serif;
+    font-family: var(--body-font);
     display: none;
 }
 
@@ -57,18 +20,6 @@ body {
     display: inline-block;
 }
 
-/* .navbar img:hover::after {
-    content: "";
-    background-color: #2e3038;
-    width: 100%;
-    height: fit-content;
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-} */
-
 /* main-styling */
 .first-section {
     padding: 30px 20px;
@@ -79,7 +30,7 @@ body {
 }
 
 .first-section .about-pg {
-    font-family: 'Inter', serif;
+    font-family: var(--body-font);
     color: #848484;
     font-size: 1.1em;
     line-height: 1.4em;
@@ -115,7 +66,7 @@ body {
 
 .second-section .about-pg {
     margin-top: 1em;
-    font-family: 'Inter', serif;
+    font-family: var(--body-font);
     color: #848484;
     font-size: 1.085em;
     line-height: 1.4em;
@@ -123,7 +74,7 @@ body {
 }
 
 .third-section {
-    background: #2e3038;
+    background: var(--gray-color);
     padding: 50px 20px 30px;
 }
 
@@ -134,7 +85,7 @@ body {
 
 .third-section p {
     font-size: 1.07em;
-    font-family: 'Inter', serif;
+    font-family: var(--body-font);
     color: #848484;
     margin-bottom: 30px;
 }
@@ -150,7 +101,7 @@ body {
 
 .forth-section p {
     font-size: 1.07em;
-    font-family: 'Inter', serif;
+    font-family: var(--body-font);
     color: #848484;
     margin-bottom: 20px;
 }
@@ -165,7 +116,7 @@ body {
 /* footer-styling */
 footer {
     padding: 20px 40px;
-    background: #2e3038;
+    background: var(--gray-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
