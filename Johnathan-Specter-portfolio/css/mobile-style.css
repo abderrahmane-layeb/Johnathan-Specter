@@ -9,7 +9,6 @@
 /* header-styling */
 .navbar {
     padding: 30px 20px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -79,7 +78,7 @@
 }
 
 .third-section {
-    background: var(secondary);
+    background: var(--secondary-color);
     padding: 50px 20px 30px;
 }
 
@@ -121,7 +120,7 @@
 /* footer-styling */
 footer {
     padding: 20px 40px;
-    background: var(--gray-color);
+    background: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
