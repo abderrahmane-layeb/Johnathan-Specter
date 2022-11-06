@@ -1,3 +1,11 @@
+:root {
+    --heading-font: 'Prata', serif;
+    --body-font: 'Inter', sans-serif;
+    --primary-color: #0a0a0b;
+    --secondary-color: #2e3038;
+    --btn-color: #fbe850;
+}
+
 /* header-styling */
 .navbar {
     padding: 30px 20px;
@@ -7,7 +15,6 @@
 }
 
 .navbar .nav-list {
-    color: #848484;
     font-family: var(--body-font);
     display: none;
 }
@@ -31,7 +38,6 @@
 
 .first-section .about-pg {
     font-family: var(--body-font);
-    color: #848484;
     font-size: 1.1em;
     line-height: 1.4em;
     margin-bottom: 30px;
@@ -67,14 +73,13 @@
 .second-section .about-pg {
     margin-top: 1em;
     font-family: var(--body-font);
-    color: #848484;
     font-size: 1.085em;
     line-height: 1.4em;
     margin-bottom: 30px;
 }
 
 .third-section {
-    background: var(--gray-color);
+    background: var(secondary);
     padding: 50px 20px 30px;
 }
 
@@ -110,7 +115,7 @@
     all: unset;
     padding: 15px 30px;
     color: #000;
-    background: #fbe850;
+    background: var(--btn-color);
 }
 
 /* footer-styling */

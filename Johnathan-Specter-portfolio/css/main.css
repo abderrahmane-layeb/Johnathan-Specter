@@ -12,8 +12,8 @@
 :root {
     --heading-font: 'Prata', serif;
     --body-font: 'Inter', sans-serif;
-    --black-color: #0a0a0b;
-    --gray-color: #2e3038;
+    --primary-color: #0a0a0b;
+    --secondary-color: #2e3038;
 }
 
 html {
@@ -21,8 +21,8 @@ html {
 }
 
 body {
-    font-family: 'Prata', serif;
-    background: var(--black-color);
+    font-family: var(--heading-font);
+    background: var(--primary-color);
     color: #fff;
 }
 
@@ -30,6 +30,6 @@ body {
     background-color: #fff;
     color: #000;
     text-align: center;
-    font-family: 'Inter', serif;
+    font-family: var(--body-font);
     font-weight: 600;
 }
