@@ -12,58 +12,98 @@
     --yellow: #fbe850;
 }
 
-/* headings-font: font-family: 'Prata',serif; */
 body {
     font-family: 'Inter', sans-serif;
     background: var(--black);
 }
 
-body #copyright {
+.copyright {
     background-color: #fff;
-    text-align: center;
-    color: #000;
-    font-weight: 700;
 }
 
-/* ----------HEADER STYLING---------- */
-header .navbar-brand {
+.brand,
+.btn,
+main .first-section .heading,
+.third-section .title,
+.fourth-section .heading {
+
     font-family: 'Prata', serif;
 }
 
-header .navbar-nav {
-    gap: 2em;
+.brand {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-header .btn {
-    all: unset;
-    color: #000;
-    padding: 15px 25px;
-    font-family: 'Prata', serif;
-    border: solid 1px transparent;
+/* ========== HEADER ========== */
+.navbar {
+    padding: 1.5em 0;
+}
+
+.navbar .nav-link {
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+.navbar .nav-link:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.btn {
+    padding: 10px 20px;
     background-color: var(--yellow);
-    transition: 300ms;
-    -webkit-transition: 300ms;
-    -moz-transition: 300ms;
-    -ms-transition: 300ms;
-    -o-transition: 300ms;
+    color: #000;
+    border: solid 1px transparent;
+    border-radius: 0;
+    transition: 500ms;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
 }
 
-header .btn:hover,
-header .btn.btn:focus {
+.btn:hover {
     border: solid 1px var(--yellow);
+    background-color: transparent;
     color: var(--yellow);
 }
 
-/* ----------MAIN STYLING---------- */
+/* ========== MAIN ========== */
 
-.first-section .heading {
+main {
+    padding: 2em 0;
+}
+
+/* ==================== */
+
+.second-section .package a:any-link {
+    text-decoration: none;
     font-family: 'Prata', serif;
-    font-size: 4em;
+    color: #fff;
+    font-size: 2em;
 }
 
-.first-section .description {
-    max-width: 60%;
-    font-size: 1.4em;
+/* ==================== */
+
+.third-section {
+    background-color: var(--gray);
+    padding: 1.5em 0;
 }
 
-/* ----------FOOTER STYLING---------- */
+/* ========== FOOTER ========== */
+
+footer {
+    padding: 1.5em 0;
+    background-color: var(--gray);
+}
