@@ -1,0 +1,122 @@
+// Import Variables 
+@use "./helpers/variables" as *;
+
+// Import Mixins 
+@use "./helpers/mixins" as *;
+
+* {
+    @include reset-browser;
+}
+
+html {
+    @include html-style;
+}
+
+body {
+    @include body-style;
+}
+
+.brand {
+    font-size: 2.3rem;
+    text-decoration: none;
+    font-family: $heading-font-family;
+}
+
+.btn {
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    background-color: $primary-color;
+    border: solid 1px transparent;
+    border-radius: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+
+    &:hover {
+        color: $primary-color;
+        background-color: transparent;
+        border: solid 1px $primary-color;
+    }
+}
+
+//////////////////////////////////
+
+.navbar {
+    .nav-link {
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        &:hover {
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+    }
+}
+
+//////////////////////////////////
+
+.hero-section {
+    .heading {
+        font-size: 5rem;
+        font-family: $heading-font-family;
+    }
+
+    .about {
+        font-size: 2rem;
+    }
+}
+
+//////////////////////////////////
+
+.sponsor-section {
+    .sponsors a:any-link  {
+        color: #fff;
+        text-decoration: none;
+        font-size: 4rem;
+        font-family: $heading-font-family;
+    }
+}
+
+//////////////////////////////////
+
+.about-section {
+    padding: 4rem 0;
+    background-color: $secondary-bg-color;
+    .title {
+        font-size: 2.8rem;
+        font-family: $heading-font-family;
+    }
+}
+
+//////////////////////////////////
+
+.contact-section {
+    .heading {
+        font-size: 2.8rem;
+        font-family: $heading-font-family;
+    }
+
+    .about {
+        font-size: 2rem;
+    }
+}
+
+//////////////////////////////////
+
+footer {
+    padding: 2rem 0;
+    background-color: $secondary-bg-color;
+}

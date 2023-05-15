@@ -1,109 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-:root {
-    --black: #0a0a0b;
-    --gray: #2e3038;
-    --yellow: #fbe850;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    background: var(--black);
-}
-
-.copyright {
-    background-color: #fff;
-}
-
-.brand,
-.btn,
-main .first-section .heading,
-.third-section .title,
-.fourth-section .heading {
-
-    font-family: 'Prata', serif;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  background: #0a0a0b;
+  font-family: "Inter", sans-serif;
 }
 
 .brand {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* ==================== HEADER ==================== */
-.navbar {
-    padding: 1.5em 0;
-}
-
-.navbar .nav-link {
-    transition: 500ms;
-    -webkit-transition: 500ms;
-    -moz-transition: 500ms;
-    -ms-transition: 500ms;
-    -o-transition: 500ms;
-}
-
-.navbar .nav-link:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+  font-size: 2.3rem;
+  text-decoration: none;
+  font-family: "Prata", serif;
 }
 
 .btn {
-    padding: 10px 20px;
-    background-color: var(--yellow);
-    color: #000;
-    border: solid 1px transparent;
-    border-radius: 0;
-    transition: 500ms;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    -webkit-transition: 500ms;
-    -moz-transition: 500ms;
-    -ms-transition: 500ms;
-    -o-transition: 500ms;
+  color: #000;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 1.5rem 3rem;
+  background-color: #fbe850;
+  border: solid 1px transparent;
+  border-radius: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
-
 .btn:hover {
-    border: solid 1px var(--yellow);
-    background-color: transparent;
-    color: var(--yellow);
+  color: #fbe850;
+  background-color: transparent;
+  border: solid 1px #fbe850;
 }
 
-/* ==================== MAIN ==================== */
-
-main {
-    padding: 2em 0;
+.navbar .nav-link {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.navbar .nav-link:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
-/* ==================== */
-
-.second-section .package a:any-link {
-    text-decoration: none;
-    font-family: 'Prata', serif;
-    color: #fff;
-    font-size: 2em;
+.hero-section .heading {
+  font-size: 5rem;
+  font-family: "Prata", serif;
+}
+.hero-section .about {
+  font-size: 2rem;
 }
 
-/* ==================== */
-
-.third-section {
-    background-color: var(--gray);
-    padding: 1.5em 0;
+.sponsor-section .sponsors a:-moz-any-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 4rem;
+  font-family: "Prata", serif;
 }
 
-/* ==================== FOOTER ==================== */
+.sponsor-section .sponsors a:any-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 4rem;
+  font-family: "Prata", serif;
+}
+
+.about-section {
+  padding: 4rem 0;
+  background-color: #2e3038;
+}
+.about-section .title {
+  font-size: 2.8rem;
+  font-family: "Prata", serif;
+}
+
+.contact-section .heading {
+  font-size: 2.8rem;
+  font-family: "Prata", serif;
+}
+.contact-section .about {
+  font-size: 2rem;
+}
 
 footer {
-    padding: 1.5em 0;
-    background-color: var(--gray);
-}
+  padding: 2rem 0;
+  background-color: #2e3038;
+}/*# sourceMappingURL=main.css.map */
